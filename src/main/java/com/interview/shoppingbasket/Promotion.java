@@ -1,5 +1,6 @@
 package com.interview.shoppingbasket;
 
-public class Promotion {
-    // Not yet implemented
+public interface Promotion {
+
+    void execute(BasketItem basketItem);
 }
